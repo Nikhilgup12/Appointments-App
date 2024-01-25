@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.appointment-main-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.appointment-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 700px;
+}
+.appointment-input-image-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 2px 1px 0px #b5b7c4;
+  border-radius: 2px;
+  min-width: 100%;
+}
+.image {
+  height: 200px;
+  width: 250px;
+}
+.appointment-main-heading {
+  color: #171f46;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: Roboto;
+}
+.title-label {
+  color: #b5b7c4;
+  font-size: 12px;
+}
+.title-input {
+  margin-top: 10px;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 0px;
+  box-shadow: 0px 2px 4px 0px #b5b7c4;
+  outline: none;
+  margin-bottom: 10px;
+}
+.date-label {
+  color: #b5b7c4;
+  font-size: 12px;
+}
+.date-input {
+  margin-top: 10px;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 0px;
+  box-shadow: 0px 2px 4px 0px #b5b7c4;
+  outline: none;
+  margin-bottom: 13px;
+}
+.btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.appointment-list-heading {
+  color: #171f46;
+  font-size: 18px;
+  font-weight:bold;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+.appointmentsList-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.btn-starred {
+  background-color: transparent;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b5b7c4;
+  color: #b5b7c4;
+  font-family: Roboto;
+  font-size: 12px;
+}
+.starred {
+  background-color: #9897f0;
+}
